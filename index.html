@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#hero">Portfolio</a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Abhay Pratap Singh</span></h1>
+                <p class="lead">UX Designer & Front-End Developer</p>
+                <div class="typing-text">I create <span id="typing"></span></div>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRFOj9vO_N7whibfclheKq33J0xTBmz-qQKdd3HL8GDyYR3SkXEdzhBEi929uQ5ocknFJYLbhzUfQ2of-ztvzvu1g" alt="Profile Image">
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRFOj9vO_N7whibfclheKq33J0xTBmz-qQKdd3HL8GDyYR3SkXEdzhBEi929uQ5ocknFJYLbhzUfQ2of-ztvzvu1g" alt="About me image">
+                </div>
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I'm a passionate UX designer and front-end developer with over 5 years of experience creating beautiful, functional websites and applications. I focus on creating user-centered designs that solve real problems.</p>
+                    
+                    <h3>My Skills</h3>
+                    <div class="skills">
+                        <div class="skill">
+                            <span>HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn btn-primary">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Services</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating beautiful, intuitive interfaces that enhance user experience and boost engagement.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive, fast and modern websites using the latest front-end technologies.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile-First Design</h3>
+                    <p>Ensuring your website looks and performs perfectly across all devices and screen sizes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Improving your site's visibility in search results to attract more organic traffic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recent Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Design</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/300" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>E-commerce Website</h3>
+                                <p>Web Design / Development</p>
+                                <a href="#" class="btn-view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/300" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Fitness App</h3>
+                                <p>App Design / UX Research</p>
+                                <a href="#" class="btn-view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="branding">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/300" alt="Project 3">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Brand Identity</h3>
+                                <p>Branding / Design</p>
+                                <a href="#" class="btn-view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/300" alt="Project 4">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Portfolio Website</h3>
+                                <p>Web Design / Development</p>
+                                <a href="#" class="btn-view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/300" alt="Project 5">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Food Delivery App</h3>
+                                <p>App Design / Development</p>
+                                <a href="#" class="btn-view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="branding">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/300" alt="Project 6">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Logo Collection</h3>
+                                <p>Branding / Logo Design</p>
+                                <a href="#" class="btn-view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Testimonials</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>Alex transformed our online presence with a stunning website design that perfectly captures our brand. The attention to detail and responsive design has significantly improved our customer engagement.</p>
+                        <div class="testimonial-author">
+                            <img src="/api/placeholder/60/60" alt="Client 1">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <p>CEO, Innovate Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>Working with Alex was a breeze. The entire design and development process was well-organized, and the final product exceeded our expectations. I highly recommend their services!</p>
+                        <div class="testimonial-author">
+                            <img src="/api/placeholder/60/60" alt="Client 2">
+                            <div>
+                                <h4>Michael Chen</h4>
+                                <p>Marketing Director, TechStart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>The app design Alex created for us perfectly balances aesthetics with functionality. User engagement has increased by 45% since launch, and we continue to receive compliments on the intuitive interface.</p>
+                        <div class="testimonial-author">
+                            <img src="/api/placeholder/60/60" alt="Client 3">
+                            <div>
+                                <h4>Emily Rodriguez</h4>
+                                <p>Product Manager, AppWorks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to me for any questions or opportunities. I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>123 Design Street, Creative City, 10001</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>hello@yourname.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Me A Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <span class="form-focus"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <span class="form-focus"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                            <span class="form-focus"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                            <span class="form-focus"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Alex Johnson</h3>
+                    <p>UX Designer & Front-End Developer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Your Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+</body>
+</html>
